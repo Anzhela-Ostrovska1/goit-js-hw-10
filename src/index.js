@@ -13,6 +13,7 @@ const breedMap = {};
 
 fetchBreeds()
   .then(resp => {
+    console.log(resp);
     const breeds = resp.data;
 
     breeds.forEach(breed => {
