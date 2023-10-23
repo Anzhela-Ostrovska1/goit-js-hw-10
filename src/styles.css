@@ -1,0 +1,16 @@
+.cat-info {
+  display: flex;
+}
+.cat {
+  padding-right: 50px;
+}
+.temperament {
+  font-weight: bold;
+}
+.loader {
+  display: none;
+}
+
+.error {
+  display: none;
+}
